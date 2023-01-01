@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #263159;
+    word-wrap: break-word;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+::selection {
+    background: rgba(129, 127, 247, 0.411);
+}
+
+.header {
+    padding: 1.5em;
+    background: rgba(0, 0, 0, 0.582);
+}
+
+.header .header-nav {
+    color: rgb(255, 255, 255);
+}
+
+    a:link {
+    text-decoration: none;
+    color: #ddd;
+    }
+
+        a:visited {
+        color: #ddd;
+        }
+
+            a:hover {
+                text-decoration: none;
+            }
+
+.header .header-text {
+    position: absolute;
+    word-spacing: 2.5em;
+    transform: translate(66em, -0.5em);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--clr);
+}
+
+.header .header-text #text1:hover {
+color: #fff;
+}
+
+    .header .header-text #text2:hover {
+    color: #fff;
+    }
+
+        .header .header-text #text3:hover {
+        color: #fff;
+        }
+
+            .header .header-text a:link {
+                padding: 3px;
+            }
+
+.header .header-title {
+    position: absolute;
+    font-size: 1.3rem;
+    font-weight: 600;
+    transform: translate(0rem, -0.6rem);
+}
+
+/* Header End*/
+
+    .container-main .content .content-shape1 {
+    background: rgba(0, 0, 0, 0.418);
+    width: 1em;
+    height: 32em;
+    padding: 0 0 0 30em;
+    margin: 2em;
+    position: absolute;
+    }
+
+    .container-main .content .content-shape2 {
+    background: rgba(0, 0, 0, 0.418);
+    width: 1em;
+    height: 15em;
+    padding: 0 0 0 47em;
+    margin: 2em;
+    transform: translate(33em, 0em);
+    position: absolute;
+    }
+
+    .container-main .content .content-shape3 {
+    background: rgba(0, 0, 0, 0.418);
+    width: 1em;
+    height: 15em;
+    padding: 0 0 0 47em;
+    margin: 2em;
+    transform: translate(33em, 17em);
+    position: absolute;
+    }
+
+    .container-main .button {
+        padding: 10px;
+        width: 5em;
+        text-align: center;
+        font-weight: 600;
+        background: rgb(184, 8, 184);
+        border-radius: 3px;
+        text-decoration: none;
+        position: absolute;
+    }
+
+    .container-main .button:hover {
+        background: rgba(184, 8, 184, 0.849)
+    }
+
+        #button1 {
+            transform: translate(23em, 30em);
+            width: 7em;
+        }
+
+            #button2 {
+                transform: translate(75em, 13em); 
+            }
+
+                #button3 {
+                    transform: translate(75em, 30em); 
+                }
+
+.content-titles a {
+    color: #fff;
+    font-weight: 650;
+    font-size: 1.3rem;
+}
+
+    #title1 {
+        transform: translate(1.2em, 1.2em);
+        margin: 1em;
+        position: absolute;
+    }
+
+    #title2 {
+        transform: translate(26.7em, 1.2em);
+        margin: 1em;
+        position: absolute;
+    }
+
+    #title3 {
+        transform: translate(26.7em, 14.2em);
+        margin: 1em;
+        position: absolute;
+    }
+
+article a {
+    color: #ccc;
+}
